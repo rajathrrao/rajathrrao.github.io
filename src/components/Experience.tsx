@@ -88,7 +88,7 @@ const Experience: React.FC = () => {
                 <div className="timeline-description">
                   <ul>
                     {exp.description.map((item, idx) => (
-                      <li key={idx}>{item}</li>
+                      <li key={idx} style={{textAlign: 'justify'}}>{item}</li>
                     ))}
                   </ul>
                 </div>

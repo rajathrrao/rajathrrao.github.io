@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
@@ -30,6 +30,7 @@
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease;
+  z-index: 1100;
 }
 
 .nav-logo:hover {
@@ -75,6 +76,8 @@
   font-size: 1.5rem;
   cursor: pointer;
   color: #333;
+  z-index: 1100;
+  position: relative;
 }
 
 .nav-mobile {
@@ -87,7 +90,7 @@
   backdrop-filter: blur(10px);
   flex-direction: column;
   padding: 1rem 0;
-  transform: translateY(-100%);
+  transform: translateY(-200%);
   opacity: 0;
   transition: all 0.3s ease;
 }

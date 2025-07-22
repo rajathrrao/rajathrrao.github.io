@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt, FaCode, FaEye } from 'react-icons/fa';
 import './Projects.css';
+import bigdata from '../assets/bigdata.jpg';
+import website from '../assets/website.jpg';
+import vfm from '../assets/vfm.jpg';
+import idformat from '../assets/idformat.jpg';
+import ml from '../assets/ml.jpg';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -11,7 +16,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: 'Virtual File Movement',
       description: 'Developed an Online Document Transfer System for secure inter-department document sharing at SJCE. Implemented for seamless file movement and accessibility for 100+ documents per month.',
-      image: 'https://img.freepik.com/free-vector/transfer-files-concept-landing-page_52683-24770.jpg?semt=ais_hybrid&w=740',
+      image: vfm,
       technologies: ['Python', 'Flask', 'HTML', 'Bootstrap', 'JS'],
       category: 'fullstack',
       github: 'https://github.com/rajathrrao/vfm',
@@ -22,7 +27,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'Restoration of video by removing rain streaks',
       description: 'Designed and trained a hybrid deep learning model to enhance video clarity. Achieved a higher PSNR compared to existing models. Published a research paper in IRJET (Volume 9, Issue 7).',
-      image: 'https://img.freepik.com/free-vector/brain-with-digital-circuit-programmer-with-laptop-machine-learning-artificial-intelligence-digital-brain-artificial-thinking-process-concept-vector-isolated-illustration_335657-2246.jpg',
+      image: ml,
       technologies: ['Deep Neural Networks', 'PyTorch', 'OpenCV', 'NumPy'],
       category: 'machinelearning',
       github: '',
@@ -33,18 +38,18 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'The SJCE Editorial Board Official Website',
       description: 'Created the official website for The SJCE Editorial Board, improving digital presence and social engagement by 3x.',
-      image: 'https://img.freepik.com/premium-vector/colorful-web-design-concept-with-flat-design_23-2147944426.jpg',
+      image: website,
       technologies: ['Python', 'HTML', 'Bootstrap', 'JS', 'Django', 'Heroku', 'PostgreSQL', 'Cloudinary'],
       category: 'frontend',
       github: 'https://github.com/rajathrrao/EdWebsite',
-      live: 'https://editorialboardjssstu.in/',
+      live: 'https://edboardjssstu.in/',
       featured: false
     },
     {
       id: 4,
       title: 'ID Card Generating and Formatting Software',
       description: 'Created a web-based application for SJCE to automate student ID card generation with formatting options. Generated 4,000+ ID cards annually, fully automating the manual process.',
-      image: 'https://img.freepik.com/free-vector/hand-drawn-essay-illustration_23-2150268421.jpg?semt=ais_hybrid&w=740',
+      image: idformat,
       technologies: ['Python', 'Flask', 'Pillow', 'HTML/CSS', 'JS'],
       category: 'fullstack',
       github: 'https://github.com/Technovation-TI03/Id-card-Organiser',
@@ -55,7 +60,7 @@ const Projects: React.FC = () => {
       id: 5,
       title: 'IMDB Reviews Sentiment Analysis Using Apache Spark Local Cluster',
       description: 'A big data analytics project that predicts sentiment of IMDb movie reviews using PySpark.',
-      image: 'https://img.freepik.com/free-vector/statistics-big-data-background_23-2147932980.jpg',
+      image: bigdata,
       technologies: ['PySpark', 'Python', 'BeautifulSoup', 'NLTK'],
       category: 'bigdata',
       github: 'https://github.com/rajathrrao/IMDB_Reviews_Sentiment_Analysis_PySpark',
@@ -145,7 +150,7 @@ const Projects: React.FC = () => {
               
               <div className="project-content">
                 <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <p style={{textAlign: 'justify'}}>{project.description}</p>
                 
                 <div className="project-technologies">
                   {project.technologies.map((tech, idx) => (

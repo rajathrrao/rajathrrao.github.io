@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import './Hero.css';
 import { TbBrandLeetcode } from 'react-icons/tb';
+import RRR from '../assets/RRR.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -88,7 +89,8 @@ const Hero: React.FC = () => {
         >
           <div className="profile-placeholder">
             <div className="profile-circle">
-              <span>RRR</span>
+              {/* <span>RRR</span> */}
+              <img src={RRR} alt="RRR" />
             </div>
           </div>
         </motion.div>

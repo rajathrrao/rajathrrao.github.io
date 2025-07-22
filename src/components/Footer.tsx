@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>
             © {currentYear} Rajath R Rao. All rights reserved. Made with{' '}
-            <FaHeart className="heart-icon" /> using React and Cursor.
+            <FaHeart className="heart-icon" /> using React.
           </p>
         </div>
       </div>
