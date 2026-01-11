@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTrophy, FaCertificate, FaAward, FaStar, FaUserEdit } from 'react-icons/fa';
+import { FaTrophy, FaAward, FaStar, FaUserEdit } from 'react-icons/fa';
 import './Achievements.css';
 
 const Achievements: React.FC = () => {
@@ -52,9 +52,9 @@ const Achievements: React.FC = () => {
     },
     {
       id: 6,
-      title: '800+ problems solved on Leetcode',
+      title: '900+ problems solved on Leetcode',
       organization: 'Leetcode',
-      description: 'Solved 800+ problems and has a streak of 300+ days on Leetcode with contest rating of 1900+.',
+      description: 'Solved 900+ problems and has a streak of 300+ days on Leetcode with contest rating of 1900+.',
       icon: <FaStar />,
       year: '',
       category: 'competition'
@@ -63,8 +63,8 @@ const Achievements: React.FC = () => {
 
   const stats = [
     { number: '3', label: 'Awards Won' },
-    { number: '8+', label: 'Projects Delivered' },
-    { number: '800+', label: 'Problems Solved on Leetcode' }
+    { number: '9+', label: 'Projects Delivered' },
+    { number: '900+', label: 'Problems Solved on Leetcode' }
   ];
 
   return (

@@ -7,17 +7,28 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       id: 1,
+      title: 'Software Engineer',
+      company: 'Digicert',
+      location: 'Bangalore, India',
+      period: '2025 Dec - Present',
+      description: [
+        'Contributing to E-Commerce site',
+      ],
+      technologies: ['Java', 'Spring Boot', 'Project Reactor', 'Apache Kafka', 'GraphQL', 'JOOQ', 'MariaDB']
+    },
+    {
+      id: 2,
       title: 'Software Developer',
       company: 'Qualcomm',
       location: 'Bangalore, India',
-      period: '2024 Oct - Present',
+      period: '2024 Oct - 2025 Dec',
       description: [
         'Designed and built a full-stack self-service portal from scratch, reducing loading time by ~90% and improved action time by ~15% to ~25% and 10% ticket reduction',
       ],
       technologies: ['Python', 'Redis', 'MySQL', 'FastAPI', 'Angular']
     },
     {
-      id: 2,
+      id: 3,
       title: 'Software Developer, Associate',
       company: 'Qualcomm',
       location: 'Bangalore, India',
@@ -30,7 +41,7 @@ const Experience: React.FC = () => {
       technologies: ['Java', 'Spring Boot', 'JPA', 'Oracle DB', 'React']
     },
     {
-      id: 3,
+      id: 4,
       title: 'Interim Intern',
       company: 'Qualcomm',
       location: 'Bangalore, India',

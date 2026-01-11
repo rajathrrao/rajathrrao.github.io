@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Software Developer
+            Software Engineer
           </motion.h2>
           
           <motion.p
@@ -40,8 +40,8 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Skilled Software Developer with 3+ years at Qualcomm. 
-            Experienced in full-stack development, system optimization, and automation. 
+            Skilled Software Engineer with 3+ years of experience at Digicert and Qualcomm. 
+            Experienced in microservices, full-stack development, system optimization, and automation. 
             Proficient in Python, Java, Angular, and Spring Boot. 
             Known for delivering impactful solutions and recognized with multiple awards for excellence.
           </motion.p>

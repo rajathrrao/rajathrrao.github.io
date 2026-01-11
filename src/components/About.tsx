@@ -35,7 +35,7 @@ const About: React.FC = () => {
           >
             <h3>Who I Am</h3>
             <p>
-            I'm a Software Development Engineer with over 3+ years of experience at Qualcomm, where I've developed full-stack applications, automated systems, and optimized backend services. 
+            I'm a Software Engineer with over 3+ years of experience at Digicert and Qualcomm, where I've developed microservices, full-stack applications, automated systems, and optimized backend services. 
             My passion for technology grew from a curiosity about how things work into a drive to build scalable, user-focused solutions using Java, Python, Spring Boot, Angular, and FastAPI.
             </p>
             
@@ -45,8 +45,8 @@ const About: React.FC = () => {
             </p>
 
             <p>
-            I value continuous learning and community involvement—having solved 800+ LeetCode problems, and published research in deep learning. 
-            Recognitions like Qualcomm's QSparkler and Rookie Maestro awards reflect my commitment to excellence and growth.
+            I value continuous learning and community involvement—having solved 900+ LeetCode problems, and published research in deep learning. 
+            Recognitions like Qualcomm's Impact and Rookie Maestro awards reflect my commitment to excellence and growth.
             </p>
           </motion.div>
 

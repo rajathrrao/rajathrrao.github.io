@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-info">
             <h3>Rajath R Rao</h3>
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
           </div>
           
           <div className="footer-social">

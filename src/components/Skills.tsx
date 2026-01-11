@@ -18,7 +18,9 @@ const Skills: React.FC = () => {
         { name: 'Spring Boot', level: 80 },
         { name: 'FastAPI', level: 85 },
         { name: 'ARQ', level: 80 },
-        { name: 'REST APIs', level: 95 }
+        { name: 'REST APIs', level: 95 },
+        { name: 'GraphQL', level: 70 },
+        { name: 'Apache Kafka', level: 60 }
       ]
     },
     {
@@ -34,11 +36,11 @@ const Skills: React.FC = () => {
     {
       category: 'Databases & ORMs',
       skills: [
-        { name: 'MySQL', level: 90 },
-        { name: 'PostgreSQL', level: 90 },
+        { name: 'SQL', level: 90 },
         { name: 'Redis', level: 90 },
         { name: 'SQLAlchemy', level: 85 },
-        { name: 'JPA/Hibernate', level: 75 }
+        { name: 'JPA/Hibernate', level: 75 },
+        { name: 'JOOQ', level: 70 }
       ]
     },
     {
